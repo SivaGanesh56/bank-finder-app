@@ -1,0 +1,15 @@
+.home {
+    display: flex;
+}
+
+.homeContainer {
+    flex: 6;
+}
+
+.homeContainer .header {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #676464;
+    flex-wrap: wrap;
+}

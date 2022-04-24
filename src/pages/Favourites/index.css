@@ -1,0 +1,9 @@
+.favorites{
+    display: flex;
+}
+
+.favorites-container {
+    flex: 6;
+    margin: 20px;
+    padding: 20px;
+}

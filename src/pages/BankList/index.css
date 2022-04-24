@@ -1,0 +1,42 @@
+.bankList {
+    display: flex;
+}
+
+.bank-list-container {
+    flex: 6;
+    margin: 10px;
+    padding: 10px;
+}
+
+.bank-list-container .options {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.bank-list-container .options .title {
+    font-weight: bold;
+    flex: 4;
+}
+
+.bank-list-container .options .form-control {
+    flex: 1;
+}
+
+.spinner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.error {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
